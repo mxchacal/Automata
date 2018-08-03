@@ -1,0 +1,14 @@
+TODO:
+
+gestion menu:
+  conductor.getChange(sensibus, x)
+  --> sensibus --> shift + button(x)
+                  --> conductor.setPage(x)
+               --> button(x)
+                  --> conductor.setValue(type, x) type = setting to change, x = value/function
+
+gestion eeprom:
+  eeprom structure
+  --> every bank is of XXX byte size
+  --> then we store the brain settings
+  memoriae.loadLastState()
